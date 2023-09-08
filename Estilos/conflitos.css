@@ -1,33 +1,36 @@
 body {
     margin: 0;
     padding: 0;
+    width: max-content;
+    height: max-content;
 }
 
 header {
-    background-color: rgb(129, 228, 170);
-    height: 60px;
+    background-color: rgb(113, 214, 152);
+    height: 150px;
+    width: 100%;
 }
 
-.menu {
-    height: 50px;
-    width: 50px;
-    position: relative;
+.logo {
+    height: 100px;
+    width: auto;
+    margin: auto;
 }
-
-
 
 .texto {
     text-align: center;
+    word-wrap: break-word;
 }
 
 p {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.9em;
+    line-height: 2em;
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(79, 153, 128);
 }
 
 .coluna1 {
@@ -64,6 +67,12 @@ h1 {
         font-size: 2cm;
     }
 
+    h2 {
+        text-align: right;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1cm;
+    }
+
     p {
         font-size: 1cm;
         line-height: 1.5em;
@@ -71,21 +80,12 @@ h1 {
 
     .coluna1 {
         font-size: 1cm;
-        margin: auto;
-    }
-    
-    .texto {
-        margin: 1cm;
     }
 
     header {
         width: 100%;
     }
     
-   #img_logo {
-        margin: auto;
-        z-index: 10;
-   }
 }
 
 
