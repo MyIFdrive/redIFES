@@ -34,7 +34,6 @@ h1 {
 }
 
 .coluna1 {
-    
     height: fit-content;
     /*max-width: 11.5cm;
     width: 11.5cm;*/
@@ -65,6 +64,7 @@ h1 {
 @media (max-width: 720px) {
     h1 {
         font-size: 2cm;
+        color: rgb(79, 153, 128);
     }
 
     h2 {
@@ -75,7 +75,7 @@ h1 {
 
     p {
         font-size: 1cm;
-        line-height: 1.5em;
+        line-height: 2em;
     }
 
     .coluna1 {
@@ -83,6 +83,8 @@ h1 {
     }
 
     header {
+        background-color: rgb(113, 214, 152);
+        height: 150px;
         width: 100%;
     }
     
